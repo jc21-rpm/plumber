@@ -3,7 +3,7 @@
 %global gh_user batchcorp
 
 Name:           plumber
-Version:        2.0.0
+Version:        2.7.0
 Release:        1
 Summary:        A swiss army knife CLI tool for interacting with Kafka, RabbitMQ and other messaging systems.
 Group:          Applications/System
@@ -31,5 +31,8 @@ install -Dm0755 build/%{name}-linux %{buildroot}%{_bindir}/%{name}
 %doc LICENSE
 
 %changelog
+* Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> 2.7.0-1
+- https://github.com/batchcorp/plumber/releases/tag/v2.7.0
+
 * Mon Feb 13 2023 Jamie Curnow <jc@jc21.com> 2.0.0-1
 - https://github.com/batchcorp/plumber/releases/tag/v2.0.0
