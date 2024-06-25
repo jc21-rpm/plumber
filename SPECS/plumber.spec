@@ -4,7 +4,7 @@
 
 Name:           plumber
 Version:        2.7.0
-Release:        1
+Release:        1%{?dist}
 Summary:        A swiss army knife CLI tool for interacting with Kafka, RabbitMQ and other messaging systems.
 Group:          Applications/System
 License:        MIT
